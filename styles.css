@@ -1,0 +1,59 @@
+.title{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer{
+    margin-top: 5%;
+}
+
+.start{
+    text-align: center;
+}
+
+.button{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.button:hover{
+    border: 2px solid red;
+}
+
+.button:hover:active{
+    background-color: red;
+}
+
+
+
+.game{
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 60% 60% 60%;
+}
+
+
+.game .col{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/public/hole.png");
+}
+
+.game .pop{
+    transition: 0.1s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("/public/mole.png");
+}
+
+.game .hide{
+    display: none;
+}
+
+.finish{
+    color: brown;
+}
